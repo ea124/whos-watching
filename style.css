@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background: rgb(20, 72, 20);
+    color: lavender;
+    font-family: sans-serif;
+}
+ul {
+    list-style: none;
+     display: flex;
+     justify-content: center;
+     padding: 0;
+     gap: 30px;
+}
+li {
+     display: flex;
+     flex-direction: column;
+     transition: all .5s;
+
+}   
+
+/* When cursor in on top of <li> */  
+
+li:hover{
+   /* background: red; */
+   transform: scale(1.1);
+
+}
+
+img {
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+    /* outline: solid 4px red; */
+     border: solid 5px rgb(6, 158, 185);
+     transition: all .5s;
+
+}
+img.hover {
+    border: solid 8px rgb(6, 158, 185);
+}
